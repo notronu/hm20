@@ -3,8 +3,10 @@ package com.example.demo;
 
 
 
-import static org.apache.commons.lang3.StringUtils.isAlpha;
+import org.springframework.stereotype.Service;
 
+import static org.apache.commons.lang3.StringUtils.isAlpha;
+@Service
 public class EmployeeValidationServiceImpl implements EmployeeValidationService {
 
     @Override
